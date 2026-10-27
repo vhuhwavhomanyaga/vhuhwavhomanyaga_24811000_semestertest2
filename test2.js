@@ -81,7 +81,7 @@ fetch('traffic_am.geojson')
 });
 
 
-L.control.layers({'Campus': campus},{'Buildings': buildings, 'Pathway': pathway}).addTo(map);
+L.control.layers({'OpenStreetMap': osm},{'Campus': campus, 'Buildings': buildings, 'Pathway': pathway}).addTo(map);
 L.control.scale().addTo(map);
 
 
